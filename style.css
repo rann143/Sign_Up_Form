@@ -35,6 +35,7 @@ body {
     align-items: stretch;
     justify-content: center;
     background-color: whitesmoke;
+    width: 60vw;
 }
 
 .container > p {
