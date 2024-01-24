@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.photo-content {
+    background-size: cover;
+    background-image: url("neom-IPtSV340-j4-unsplash.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin-text {
+    position: relative;
+    bottom: 20vh;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-content {
+    height: 100vh;
+    width: 40vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: 5px;
+}
