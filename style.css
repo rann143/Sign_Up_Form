@@ -115,3 +115,13 @@ input {
     height: 20px;
 }
 
+.credit {
+    color: rgb(197, 128, 0);
+}
+
+#photo-credit {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+}
+
