@@ -12,9 +12,10 @@ body {
 }
 
 #odin-text {
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     bottom: 20vh;
-    height: 20%;
+    height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
@@ -22,6 +23,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.odin-logo {
+    width: 50px;
+    margin-right: 20px;
 }
 
 .photo-content {
@@ -106,3 +112,4 @@ input {
     width: 70%;
     height: 20px;
 }
+
