@@ -11,6 +11,13 @@ function confirmPassword(password) {
 
 }
 
+const btn = document.querySelector('button');
+
+btn.addEventListener('click', event => {
+    confirmPassword();
+})
+
+
 function checkPasswords(){
     
     if (pass.value !== confPass.value) {
@@ -26,12 +33,6 @@ errorMessage.style.color = "red";
 errorMessage.style.fontFamily = `"Caveat", cursive, Arial, Helvetica, sans-serif;`;
 errorMessage.style.fontSize = "1rem";
 errorMessage.style.marginLeft = "";
-
-const btn = document.querySelector('button');
-
-btn.addEventListener('click', event => {
-    confirmPassword();
-})
 
 pass.addEventListener('input', checkPasswords);
 confPass.addEventListener('input', checkPasswords);

@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0;
+    overflow: hidden;
 }
 
 .photo-content {
@@ -9,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 
 #odin-text {
